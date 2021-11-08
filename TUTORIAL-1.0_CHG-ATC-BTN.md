@@ -7,11 +7,11 @@ Changing text of Add To Cart (ATC) button on product page. Button functionality 
    - BULK PURCHASE with dateline.
    - /or products that need longer than the usual to fulfil.
 
-You are required to complete all the steps below or drop us an email at eaidter@gmail.com to hire us.
+You are required to complete all the steps below or email at eaidter@gmail.com to hire us with minimal cost.
 
 <b>REMINDER / TIPS</b>
 -
-   - Duplicate your theme to keep it as a back-up ((https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes))
+   - Duplicate your theme first to keep it as a back-up before trying this advanced coding - https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes
    - Keyboard shortcut to find specific text line: Place cursor on the code editor screen and hold CTRL + press F
 
 <b>ADD A NEW PRODUCT TEMPLATE</b>
