@@ -1,3 +1,15 @@
+Table Directory
+=================
+
+* [CUSTOM TEXT FOR ATC BUTTON](#custom-text-for-atc-button)
+   * [REMINDER / TIPS](#reminder--tips)
+   * [ADD A NEW PRODUCT TEMPLATE](#add-a-new-product-template)
+   * [ADD A NEW SECTION](#add-a-new-section)
+   * [ASSIGN THE TEMPLATE TO SPECIFIC PRODUCTS](#assign-the-template-to-specific-products)
+   * [OTHER SETTINGS](#other-settings)
+
+
+
 # CUSTOM TEXT FOR ATC BUTTON
 TUTORIAL 1.0 `Sectioned Theme`
 
