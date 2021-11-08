@@ -21,9 +21,9 @@ You are required to complete all the steps below or drop us an email at eaidter@
 2. Find the theme you want to edit, and then click <b>Actions</b> > <b>Edit code</b>.
 
 3. In the Templates directory, click <b>Add a new template</b> and follow according as below:
-    - Create a new template for >>> `product`
-    - Template type >>> `liquid`
-    - File name >>> replace 'alternate' to `pre-order` (or to any of your preferred name and this will change the struction below)
+    - Create a new template for `product`
+    - Template type `liquid`
+    - File name > replace 'alternate' to `pre-order` (or to any of your preferred name and this will change the struction below)
     
     Next, click <b>Create template</b> and the new created template file for `product.pre-order.liquid` will open in the code editor.
 
@@ -49,7 +49,7 @@ Next, click <b>Save</b>.
 <b>ADD A NEW SECTION</b>
 -
 1. In the Sections directory, click <b>Add a new section</b> and add the following
-    - Create a new section called >>> `product-pre-order-template`
+    - Create a new section called `product-pre-order-template`
 
     Next, click <b>Create section</b> and the new created section file for `product-pre-order-template.liquid` will open in the code editor.
 
@@ -94,5 +94,4 @@ TIPS: Use bulk editor to assign the template to more than 3 products ((https://h
 <b>OTHER SETTINGS</b>
 -
 Please refer to our Github file - CONSIDERATION_CHG-ATC-BTN
-  
   
