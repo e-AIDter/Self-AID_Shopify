@@ -1,6 +1,6 @@
 # Self-AID_Shopify
 
-About: This space is to offer Shopify merchants an opportunity to Self-AID their website.
+This space is to offer Shopify merchants an opportunity to Self-AID their website.
 
 Need help?
 -
