@@ -93,5 +93,5 @@ TIPS: Use bulk editor to assign the template to more than 3 products ((https://h
 
 <b>OTHER SETTINGS</b>
 -
-Please refer to our Github file - CONSIDERATION_CHG-ATC-BTN
+Please refer to our Github file - Consideration_CHG-ATC-BTN
   
