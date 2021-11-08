@@ -5,13 +5,13 @@ Recommendation for product page with custom tabs.
 
 You are required to complete all the steps below or email at eaidter@gmail.com to hire us with minimal cost.
 
-<b>REMINDER / TIPS</b>
--
-   - Duplicate your theme first to keep it as a back-up before trying this advanced coding - https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes
-   - Keyboard shortcut to find specific text line: Place cursor on the code editor screen and hold CTRL + press F
+### REMINDER / TIPS
+
+   - [Duplicate](https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes) your theme first to keep it as a back-up before trying this advanced coding
+   - Keyboard shortcut to find specific text line: Place cursor on the code editor screen and hold `CTRL + F`
    
-<b>ADDING THE TABS AND CSS</b>
--
+## ADDING THE TABS AND CSS
+
 1. From your Shopify admin, go to <b>Online Store</b> > <b>Themes</b>.
 
 2. Find the theme you want to edit, and then click <b>Actions</b> > <b>Edit code</b>.
@@ -128,8 +128,8 @@ In the above coding, the tab titled "Info / Shipping / Returns" can be amended t
         
 Next, click <b>Save</b>.
 
-ADD jQuery
--
+## ADD jQuery
+
 Under <b>Assets</b> directory, open file name `theme.js`, and the following JavaScript code at the very bottom:
 
     $(document).ready(function() {
