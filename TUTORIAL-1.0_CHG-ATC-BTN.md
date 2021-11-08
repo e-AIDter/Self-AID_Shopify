@@ -3,7 +3,7 @@ TUTORIAL 1.0 `Sectioned Theme`
 
 Changing text of Add To Cart (ATC) button on product page. Button functionality does not change (perform the same as an actual ATC button). This is recommended for products with the following settings:
 
-   - Accept PRE-ORDER for products that have went out-of-stock.
+   - PRE-ORDER for products that have went out-of-stock.
    - BULK PURCHASE with dateline.
    - /or products that need longer than the usual to fulfil.
 
