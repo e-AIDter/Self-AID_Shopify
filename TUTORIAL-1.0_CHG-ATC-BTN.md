@@ -1,8 +1,9 @@
-Table Directory
+Anchor Table
 =================
 
+* [Anchor Table](#anchor-table)
 * [CUSTOM TEXT FOR ATC BUTTON](#custom-text-for-atc-button)
-   * [REMINDER / TIPS](#reminder--tips)
+   * [REMINDER/TIPS](#reminder--tips)
    * [ADD A NEW PRODUCT TEMPLATE](#add-a-new-product-template)
    * [ADD A NEW SECTION](#add-a-new-section)
    * [ASSIGN THE TEMPLATE TO SPECIFIC PRODUCTS](#assign-the-template-to-specific-products)
