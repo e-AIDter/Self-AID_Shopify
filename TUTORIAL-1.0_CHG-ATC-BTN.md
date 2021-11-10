@@ -29,19 +29,27 @@ You are required to complete all the steps below or email at eaidter@gmail.com t
 
 4. Find the following code within the new created template file:
 
+```liquid
        {% section 'product-template' %}
+```
 
     Replace it with:
 
+```liquid
        {% section 'product-pre-order-template' %}
+```
     
     In the same file, look for a `<script>` tag that contains this line of code:
   
+```liquid
        addToCart: {{ 'products.product.add_to_cart' | t | json }},
+```
 
     Replace it with:
 
+```liquid
        addToCart: {{ 'Pre-order' | json }},
+```
 
 Next, click <b>Save</b>.
 
@@ -63,6 +71,7 @@ Next, click <b>Save</b>.
 
     Look for this code:
 
+```liquid
        <span data-add-to-cart-text>
          {% unless current_variant.available %}
          {{ 'products.product.sold_out' | t }}
@@ -70,12 +79,15 @@ Next, click <b>Save</b>.
          {{ 'products.product.add_to_cart' | t }}
          {% endunless %}
        </span>
+```
 
       Replace it with:
 
+```liquid
        <span data-add-to-cart-text>
          {{ 'Pre-order' | json | remove: '"' }}
        </span>
+```
 
 Next, click <b>Save</b>.
 
