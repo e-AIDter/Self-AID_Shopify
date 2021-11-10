@@ -1,0 +1,18 @@
+# CONSIDERATION - TUTORIAL 1.0
+CUSTOM TEXT FOR ATC BUTTON - CONSIDER OTHER SETTINGS WHEN ONLINE STORE INCLUDE THIS CUSTOM FEATURE.
+
+## CONTROL INVENTORY
+
+Tick the checkbox for `Track quantity` and add the available quantity to control the number of orders.
+
+[Know more](https://help.shopify.com/en/manual/products/inventory/track_inventory#set-up-inventory-tracking)
+
+
+## CAPTURE PAYMENT METHOD
+
+Online stores that accept card payment may consider `payment capture = manually` (Allows you to authorise payment manually without charging to customer's card immediately), and if there's agreement that you are charging your customers in advance for a pre-order product that will ship at a later date, then you are able to capture funds immediately.
+
+   - Option available under <b>Settings</b> > <b>Payments</b> > scroll down to <b>Payment capture</b>, click <b>Manage</b> > select `Manually`
+
+[Know more](https://help.shopify.com/en/manual/payments/payment-authorization#set-up-manual-capture-of-credit-card-payments)
+

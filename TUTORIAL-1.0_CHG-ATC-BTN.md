@@ -19,15 +19,15 @@ Changing text of Add To Cart (ATC) button on product page. Button functionality 
    - BULK PURCHASE with dateline.
    - /or products that need longer than the usual to fulfil.
 
-You are required to complete all the steps below or drop us an email at eaidter@gmail.com to hire us.
+You are required to complete all the steps below or email at eaidter@gmail.com to hire us with minimal cost.
 
-<b>REMINDER / TIPS</b>
--
-   - Duplicate your theme to keep it as a back-up ((https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes))
-   - Keyboard shortcut to find specific text line: Place cursor on the code editor screen and hold CTRL + press F
+### REMINDER / TIPS</b>
 
-<b>ADD A NEW PRODUCT TEMPLATE</b>
--
+   - [Duplicate](https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes) your theme first to keep it as a back-up before trying this advanced coding
+   - Keyboard shortcut to find specific text line: Place cursor on the code editor screen and hold `CTRL + F`
+
+## ADD A NEW PRODUCT TEMPLATE
+
 1. From your Shopify admin, go to <b>Online Store</b> > <b>Themes</b>.
 
 2. Find the theme you want to edit, and then click <b>Actions</b> > <b>Edit code</b>.
@@ -58,8 +58,8 @@ You are required to complete all the steps below or drop us an email at eaidter@
 Next, click <b>Save</b>.
 
 
-<b>ADD A NEW SECTION</b>
--
+## ADD A NEW SECTION
+
 1. In the Sections directory, click <b>Add a new section</b> and add the following
     - Create a new section called `product-pre-order-template`
 
@@ -91,8 +91,8 @@ Next, click <b>Save</b>.
 
 Next, click <b>Save</b>.
 
-<b>ASSIGN THE TEMPLATE TO SPECIFIC PRODUCTS</b>
--
+## ASSIGN THE TEMPLATE TO SPECIFIC PRODUCTS
+
 1. From your Shopify admin, go to <b>Products</b> > <b>All products</b>
 
 2. Click the name of the product you want to make available for pre-order
@@ -101,9 +101,11 @@ Next, click <b>Save</b>.
 
 4. Click <b>Save</b>
 
-TIPS: Use bulk editor to assign the template to more than 3 products ((https://help.shopify.com/en/manual/online-store/themes/os20/theme-structure/templates#bulk-template-changes))
+TIPS: Use [bulk editor](https://help.shopify.com/en/manual/online-store/themes/os20/theme-structure/templates#bulk-template-changes) to assign the template to more than 3 products
 
-<b>OTHER SETTINGS</b>
--
-Please refer to our Github file - CONSIDERATION_CHG-ATC-BTN
-  
+## OTHER SETTINGS
+
+Refer to our Github file - Consideration_CHG-ATC-BTN
+ 
+ 
+ 
