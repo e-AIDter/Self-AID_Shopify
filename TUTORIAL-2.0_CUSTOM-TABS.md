@@ -1,3 +1,12 @@
+Table Anchors
+=============
+
+* [CUSTOM PRODUCT PAGE TABS](#custom-product-page-tabs)
+   * [REMINDER/TIPS](#reminder--tips)
+* [ADDING THE TABS AND CSS](#adding-the-tabs-and-css)
+* [ADD jQuery](#add-jquery)
+
+
 # CUSTOM PRODUCT PAGE TABS
 TUTORIAL 2.0 `Sectioned Theme`
 
