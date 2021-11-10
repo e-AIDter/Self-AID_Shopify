@@ -1,5 +1,5 @@
 # CUSTOM TEXT FOR ATC BUTTON
-TUTORIAL 1.0 `Sectioned Theme`
+TUTORIAL 1.0 `Sectioned Theme` | [CONSIDERATION](https://github.com/e-AIDter/Self-AID_Shopify/blob/main/Consideration_CHG-ATC-BTN.md)
 
 Changing text of Add To Cart (ATC) button on product page. Button functionality does not change (perform the same as an actual ATC button). This is recommended for products with the following settings:
 
@@ -29,19 +29,19 @@ You are required to complete all the steps below or email at eaidter@gmail.com t
 
 4. Find the following code within the new created template file:
 
-        {% section 'product-template' %}
+       {% section 'product-template' %}
 
     Replace it with:
 
-        {% section 'product-pre-order-template' %}
+       {% section 'product-pre-order-template' %}
     
     In the same file, look for a `<script>` tag that contains this line of code:
   
-        addToCart: {{ 'products.product.add_to_cart' | t | json }},
+       addToCart: {{ 'products.product.add_to_cart' | t | json }},
 
     Replace it with:
 
-        addToCart: {{ 'Pre-order' | json }},  
+       addToCart: {{ 'Pre-order' | json }},
 
 Next, click <b>Save</b>.
 
@@ -63,19 +63,19 @@ Next, click <b>Save</b>.
 
     Look for this code:
 
-        <span data-add-to-cart-text>
-        {% unless current_variant.available %}
-        {{ 'products.product.sold_out' | t }}
-        {% else %}
-        {{ 'products.product.add_to_cart' | t }}
-        {% endunless %}
-        </span>
+       <span data-add-to-cart-text>
+         {% unless current_variant.available %}
+         {{ 'products.product.sold_out' | t }}
+         {% else %}
+         {{ 'products.product.add_to_cart' | t }}
+         {% endunless %}
+       </span>
 
       Replace it with:
 
-        <span data-add-to-cart-text>
-          {{ 'Pre-order' | json | remove: '"' }}
-        </span>
+       <span data-add-to-cart-text>
+         {{ 'Pre-order' | json | remove: '"' }}
+       </span>
 
 Next, click <b>Save</b>.
 
@@ -93,7 +93,4 @@ TIPS: Use [bulk editor](https://help.shopify.com/en/manual/online-store/themes/o
 
 ## OTHER SETTINGS
 
-Refer to our Github file - Consideration_CHG-ATC-BTN
- 
- 
- 
+Refer to Github file - [Consideration_CHG-ATC-BTN](https://github.com/e-AIDter/Self-AID_Shopify/blob/main/Consideration_CHG-ATC-BTN.md)
