@@ -1,3 +1,13 @@
+Anchors Table
+=================
+
+* [BACK TO TOP BUTTON](#back-to-top-button)
+   * [REMINDER / TIPS](#reminder--tips)
+   * [ADD SNIPPET](#add-snippet)
+   * [INCLUDE THE SNIPPET](#include-the-snippet)
+   * [CUSTOMIZATION](#customization)
+
+
 # BACK TO TOP BUTTON
 TUTORIAL 3.0 `Sectioned Theme`
 
