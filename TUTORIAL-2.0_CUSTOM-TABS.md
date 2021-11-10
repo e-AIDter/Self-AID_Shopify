@@ -45,11 +45,11 @@ IMPORTANT | UNDERSTANDING
 
 In the above coding, the tab titled "Info / Shipping / Returns" can be amended to your preferred names.
 
-#1. `{{ product.description }}` > The information that is added to your specific product's descriptions.
+#1. `{{ product.description }}` The information that is added to your specific product's descriptions.
 
-#2. `{% render 'shipping' %}` > You will need to add or render it from a file under snippet directory. This allows you to add custom html. Otherwise, you can consider changing it to #3
+#2. `{% render 'shipping' %}` You will need to add or render it from a file under snippet directory. This allows you to add custom html. Otherwise, you can consider changing it to #3
 
-#3. `{{ pages.returns.content }}` > Replace the text 'returns' to the URL handle. i.e the back of the url handle is /size-chart, it should look like this {{ pages.size-chart.content }}
+#3. `{{ pages.returns.content }}` Replace the text 'returns' to the URL handle. Example; the back of the url handle is /size-chart, it should look like this {{ pages.size-chart.content }}
        
 4. Add the following CSS to the very bottom:
 
