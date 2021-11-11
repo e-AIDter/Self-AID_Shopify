@@ -1,4 +1,4 @@
-<button class="d-block d-md-none"> <a class="dropdown-item" href="/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a>          </button>
+<button class="d-block d-md-none"> <a class="dropdown-item" href="https://github.com/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a>          </button>
 
 # CUSTOM TEXT FOR ATC BUTTON
 TUTORIAL 1.0 `Sectioned Theme` | [CONSIDERATION](https://github.com/e-AIDter/Self-AID_Shopify/blob/main/Consideration_CHG-ATC-BTN.md)
