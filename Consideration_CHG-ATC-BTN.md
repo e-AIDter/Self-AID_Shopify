@@ -1,3 +1,5 @@
+<button class="d-block d-md-none"> <a class="dropdown-item" href="/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a>          </button>
+
 # CONSIDERATION - TUTORIAL 1.0
 CUSTOM TEXT FOR ATC BUTTON - CONSIDER OTHER SETTINGS WHEN ONLINE STORE INCLUDE THIS CUSTOM FEATURE.
 

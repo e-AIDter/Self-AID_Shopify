@@ -1,3 +1,5 @@
+<button class="d-block d-md-none"> <a class="dropdown-item" href="/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a>          </button>
+
 # CUSTOM FIELDS
 TUTORIAL 3.0 `Sectioned Theme`
 
