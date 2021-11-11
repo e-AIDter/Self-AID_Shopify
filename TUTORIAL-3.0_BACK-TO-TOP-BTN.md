@@ -1,3 +1,5 @@
+<button class="d-block d-md-none"> <a class="dropdown-item" href="https://github.com/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a>          </button> :point_left::point_left::point_left: Feeling a little lost navigating a code repositry? Click here to jump to the right TUTORIAL file.
+
 # BACK TO TOP BUTTON
 TUTORIAL 3.0 `Sectioned Theme`
 
