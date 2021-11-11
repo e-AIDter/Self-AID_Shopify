@@ -32,22 +32,23 @@ You are required to complete all the steps below or email at eaidter@gmail.com t
 
 4. Paste the following code into the new created back-to-the-top file:
 
-        % comment %}
+       {% comment %}
           Reduce below value if you need the back to the top button to appear higher up on the page.
           That value is in pixels.
         {% endcomment %}
         {% assign vertical_offset_for_trigger = 300 %}
 
-        {% comment %}
+       {% comment %}
           Vertical offset from bottom of browser for the position of the button.
-        {% endcomment %}
-        {% assign position_from_bottom = '6em' %}
+       {% endcomment %}
+       {% assign position_from_bottom = '6em' %}
 
         <a id="BackToTop" href="#" title="Back to the top" class="back-to-top hide">
           <span>Back to the top</span> <i class="fa fa-arrow-circle-o-up fa-2x"></i>
         </a>
-        {{ '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' | stylesheet_tag }}
-        <style>
+       {{ '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' | stylesheet_tag }}
+       
+       <style>
           .back-to-top {
             position: fixed;
             bottom: {{ position_from_bottom }};
@@ -81,8 +82,8 @@ You are required to complete all the steps below or email at eaidter@gmail.com t
           .hide {
             display: none!important;
           }
-        </style>
-        <script>
+       </style>
+       <script>
             (function() {
             function trackScroll() {
                 var scrolled = window.pageYOffset;
@@ -108,7 +109,7 @@ You are required to complete all the steps below or email at eaidter@gmail.com t
             window.addEventListener('scroll', trackScroll);
             goTopBtn.addEventListener('click', backToTop);
             })();
-        </script>
+       </script>
         
 Next, click <b>Save</b>.
 
@@ -120,7 +121,7 @@ Next, click <b>Save</b>.
 
     Right above the closing `</body>` tag, paste this code:
 
-        {% render 'back-to-the-top' %}
+       {% render 'back-to-the-top' %}
         
 ## CUSTOMIZATION
 

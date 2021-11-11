@@ -73,23 +73,23 @@ Next, click <b>Save</b>.
 
 ## CREATE CUSTOM FORM FIELDS
 
-Easily generate the HTML and Liquid code for each form fields.
+Generate the HTML and Liquid code for each form fields.
 
    - Use Shopify tool: [Shopify UI Elements Generator tool](https://ui-elements-generator.myshopify.com/pages/line-item-property)
    - Auto preview panel provided while you create your custom field.
    - Copy the generated code from the box in the Grab your code section.
 
-## PASTE THE COPIED CODES
+### PASTE THE COPIED CODES
 
-1. In the new created sections file `product-customizable-template.liquid`:
+   - Under the Section directory, open file named `product-customizable-template.liquid`
 
-  Find the code `type="submit"` in the file - This code is wrap within the Add to cart button family code.
+      Find the code `type="submit"` << This code is wrap within the Add to cart button family code.
 
-2. The copied generated code is paste above the Add to cart button family code /or any positioning you would like it to be seen on your product page.
+   - The copied generated codes is paste above the Add to cart button family code /or at any position.
 
-    TIPS: Assign the template to your specific product and preview the changes made. Reposition, save the changes, preview and repeat until it is at the right location.
+      TIPS: Assign the template to your specific product and preview the changes made. Reposition, save the changes, preview again. Repeat the steps until it is in the right position on your product page.
     
-## ASSIGN THE CUSTOMIZABLE TEMPLATE TO SPECIFIC PRODUCTS
+### ASSIGN THE CUSTOMIZABLE TEMPLATE TO SPECIFIC PRODUCTS
 
 1. From your Shopify admin, go to <b>Products</b> > <b>All products</b>
 
@@ -108,24 +108,23 @@ This code checks each line item to see if it has any line item properties, and d
 
     Find the line containing the code `{{ item.product.title }}`. On a new line below, paste the following code:
 
-        {% assign property_size = item.properties | size %}
-        {% if property_size > 0 %}
-          {% for p in item.properties %}
-            {% assign first_character_in_key = p.first | truncate: 1, '' %}
-            {% unless p.last == blank or first_character_in_key == '_' %}
-              {{ p.first }}:
-              {% if p.last contains '/uploads/' %}
-                <a class="lightbox" href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
-              {% else %}
-                {{ p.last }}
-              {% endif %}
-              <br>
-            {% endunless %}
-          {% endfor %}
-        {% endif %}
+       {% assign property_size = item.properties | size %}
+       {% if property_size > 0 %}
+         {% for p in item.properties %}
+           {% assign first_character_in_key = p.first | truncate: 1, '' %}
+           {% unless p.last == blank or first_character_in_key == '_' %}
+             {{ p.first }}:
+             {% if p.last contains '/uploads/' %}
+               <a class="lightbox" href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
+             {% else %}
+               {{ p.last }}
+             {% endif %}
+             <br>
+           {% endunless %}
+         {% endfor %}
+       {% endif %}
 
 Next, click <b>Save</b>.
-
 
 ## UPDATE CART PAGE TO WORK FOR CUSTOM FIELDS FIELDS
 
@@ -138,7 +137,6 @@ Next, click <b>Save</b>.
       Replace it with
       
        /cart/change?line={{ forloop.index }}&quantity=0
-
 
 2. Update item quantity fields in the cart
 
@@ -154,7 +152,7 @@ Next, click <b>Save</b>.
        
 Next, click <b>Save</b>.
        
-## SHOW CUSTOM DETAILS IN EMAIL NOTIFICATION
+## OPTIONAL - SHOW CUSTOM DETAILS IN EMAIL NOTIFICATION
 Repeat these steps for any other email notifications that you want to include line item properties.
 
 1. From your Shopify admin, go to <b>Settings</b> > <b>Notifications</b>
