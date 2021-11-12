@@ -55,7 +55,7 @@ In the above coding, the tab titled "Info / Shipping / Returns" can be amended t
        
 4. Add the following CSS to the very bottom:
 
-       ```css
+```css
        <style>
           ul.tabs {
             border-bottom: 1px solid #DDDDDD;
@@ -128,7 +128,7 @@ In the above coding, the tab titled "Info / Shipping / Returns" can be amended t
             clear: both;
           }
        </style>
-       ```
+```
         
 Next, click <b>Save</b>.
 
@@ -136,7 +136,7 @@ Next, click <b>Save</b>.
 
 Under <b>Assets</b> directory, open file name `theme.js`, and the following JavaScript code at the very bottom:
 
-    ```javascript
+```javascript
     $(document).ready(function() {
       $('ul.tabs').each(function(){
         var active, content, links = $(this).find('a');
@@ -156,7 +156,7 @@ Under <b>Assets</b> directory, open file name `theme.js`, and the following Java
         });
       });
     });
-    ```
+```
     
 Next, click <b>Save</b>.
 
