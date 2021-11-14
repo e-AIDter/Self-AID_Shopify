@@ -55,4 +55,10 @@ Find ( <kbd>CTRL</kbd> + <kbd>F</kbd> ) all `&rsaquo;` text nodes that are withi
 
 Replace it with your preferred separator characters!!
 
+
+## ABLE THROUGH FREEMIUM THEME SETTINGS?
+
+<!-- meta name="generator" content="LibreOffice 7.0.4.2 (GNU/Linux)"> -->
+<table cellspacing="0" border="0"> <colgroup width="109"></colgroup> <colgroup width="29"></colgroup> <colgroup width="28"></colgroup> <colgroup width="31"></colgroup> <colgroup width="28" span="3"></colgroup> <colgroup width="29"></colgroup> <colgroup width="27"></colgroup> <tbody><tr> <td height="174" align="center"><br></td> <td align="center">L<br>I<br>G<br>H<br>T</td> <td align="center">S<br>U<br>p<br>p<br>l<br>y</td> <td align="center">M<br>I<br>n<br>i<br>m<br>a<br>l</td> <td align="center">D<br>A<br>w<br>n</td> <td align="center">D<br>E<br>b<br>u<br>t</td> <td align="center">N<br>A<br>r<br>r<br>a<br>t<br>i<br>v<br>e</td> <td align="center">B<br>O<br>u<br>n<br>d<br>l<br>e<br>s<br>s</td> <td align="center">V<br>E<br>n<br>t<br>u<br>r<br>e</td> </tr> <tr> <td height="41" align="left">breadcrumbs<br>Settings?</td> <td align="center">:heavy_check_mark:</td> <td align="center">:heavy_check_mark:</td> <td align="center">:heavy_check_mark:</td> <td align="center">:negative_squared_cross_mark:</td> <td align="center">:negative_squared_cross_mark:</td> <td align="center">:negative_squared_cross_mark:</td> <td align="center">:negative_squared_cross_mark:</td> <td align="center">:negative_squared_cross_mark:</td> </tr> </tbody></table>
+
 <table><tr><td><a href="https://github.com/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a> :point_left::point_left::point_left: Feeling a little lost navigating a code repositry? Click <a href="https://github.com/e-AIDter/Self-AID_Shopify/find/main"> Go to file </a> to jump to the right TUTORIAL file.</td></tr></table>
