@@ -5,7 +5,9 @@ If you are into the clothing line that is for tailored fit, then perhaps this cu
 
 Example as below:
 <figure>
-![size option example](https://cdn.shopify.com/shopifycloud/help/assets/manual/customize/size-option-c60ff14683b06c6bc97e65e17befecd5e238f6c0a5facbb1d846ee8b5f397141.png "﷽")
+<img src="https://cdn.shopify.com/shopifycloud/help/assets/manual/customize/size-option-c60ff14683b06c6bc97e65e17befecd5e238f6c0a5facbb1d846ee8b5f397141.png "﷽""
+   title="﷽"
+     alt="size option example" />
 	<figcaption>
 	size option example
 	</figcaption> </figure>
@@ -36,7 +38,7 @@ Example as below:
 
 9. In the textarea box, create a table that contains your size chart information. Customize the table to look the way you want it to:
 
-   ![customizing the size chart table](https://cdn.shopify.com/shopifycloud/help/assets/manual/customize/create-size-chart-table-87829d3cafeb26072e6b55c11f0c4dbb50675d916d98a9de2dd5a8656b7fccf5.png "﷽")
+   ![customizing the size chart table](https://camo.githubusercontent.com/d78e0b814c73e42d51062faae3d2d7f4f8dc709c822ee830363418ef9934fd5a/68747470733a2f2f63646e2e73686f706966792e636f6d2f73686f70696679636c6f75642f68656c702f6173736574732f6d616e75616c2f637573746f6d697a652f6372656174652d73697a652d63686172742d7461626c652d383738323964336361666562323630373265366235356331316630633464626235303637356439313664393861396465326464356138363536623766636366352e706e67 "﷽")
 <figcaption>
 customizing the size chart table
 </figcaption> </figure>
